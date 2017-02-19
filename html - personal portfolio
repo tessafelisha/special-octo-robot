@@ -1,0 +1,41 @@
+<!--NAV BAR-->
+<ul class="topnav" id="myTopnav">
+  <li class="fade3"><a href="#contact">Contact</a></li>
+  <li class="fade2"><a href="#portfolio">Portfolio</a></li>
+  <li class="fade1"><a href="#aboutMe">About</a></li>
+</ul>
+
+<!--BODY-->
+<div class="aboutText" id="aboutMe">
+  <h2>ABOUT ME</h2>
+  Currently in the legal field looking to make a career change. No relevant experience unless you count middle school web design and high school yearbook classes. My projects will probably be about my dog Rusty who looks like a lion.
+</div>
+
+<div class="portfolioText" id="portfolio">
+  <h2>PORTFOLIO</h2>
+  Work in progress. Please check back later.
+</div>
+
+<!--CONTACT ME SECTION-->
+<div class="contactText" id="contact">
+  <h2>CONTACT ME</h2>
+  <form>
+  Name:<br>
+  <input type="text" name="name" class="contactForm"><br>
+  Email Address:<br>
+  <input type="text" name="email" class="contactForm"><br>
+    Message:<br><textarea name="message" rows="10" cols="30" class="contactForm">
+</textarea>
+    <br>
+    <button type="submit" class="button">Send</button>
+</form>
+</div>
+
+<!--FOOTER SECTION-->
+<div class="footer">
+  <center>
+<a href="https://www.instagram.com/rustytheminilion/" target="_blank"><img src="http://www.iconsplace.com/icons/preview/7c0724/instagram-2-256.png" style="width:5%;margin:10px;"></a>
+    <a href="https://www.linkedin.com/in/tessa-dejkunchorn-barton-949996a6/" target="_blank"><img src="http://www.iconsplace.com/icons/preview/cc0c3c/linkedin-2-256.png" style="width:5%;margin:10px;"></a>
+    <a href="https://github.com/tessafelisha" target="_blank"><img src="http://www.iconsplace.com/icons/preview/ff1550/github-256.png" style="width:5%;margin:10px;"></a>
+  </center>
+</div>
