@@ -1,0 +1,114 @@
+ul.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #400413;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+ul.topnav li a:hover {
+  color: #f6517a;
+  background-color: white;
+}
+
+.aboutText {
+  color: #7c0724;
+  border-bottom-style: solid;
+  border-color: #7c0724;
+  border-width: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.portfolioText {
+  color: #cc0c3c;
+  border-bottom-style: solid;
+  border-color: #cc0c3c;
+  border-width: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contactText {
+  color: #ff1550;
+  border-bottom-style: solid;
+  border-color: #ff1550;
+  border-width: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fade1 {
+  background-color: #7c0724;
+}
+
+.fade2 {
+  background-color: #cc0c3c;
+}
+
+.fade3 {
+  background-color: #ff1550;
+}
+
+.body {
+  background-image: "http://res.cloudinary.com/dzduekgct/image/upload/v1486970774/IMG_4152_qukdo3.jpg"
+}
+
+.contactForm {
+  border-color: #ff1550;
+  border-style: solid;
+  border-width: 1px;
+  width:33%;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #ff1550;
+  color: white;
+  border-width: 1px;
+  border-color: #ff1550;
+  border-style: solid;
+}
+.button:hover {
+  background-color: white;
+  color: #ff1550;
+  border-style: solid;
+  border-color: #ff1550;
+  border-width: 1px;
+}
+
+.footer {
+  margin-bottom: 10px;
+}
